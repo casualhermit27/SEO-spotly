@@ -1,7 +1,7 @@
 'use client';
 
 import { Button } from '@/components/ui/button';
-import { Upload, Link, Search } from 'lucide-react';
+import { Upload, Link } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 export default function Home() {
@@ -56,7 +56,7 @@ export default function Home() {
                 </span>
               </h1>
               
-              <div className="text-2xl md:text-3xl text-slate-600 dark:text-slate-300 leading-relaxed font-light italic text-left">
+              <div className="text-2xl md:text-3xl text-slate-600 dark:text-slate-300 leading-relaxed font-extralight italic text-left">
                 <div className="flex items-end justify-between">
                   <span>
                     AI-powered analysis that combines<br />
@@ -328,8 +328,8 @@ export default function Home() {
                 <div className="w-16 h-16 bg-gradient-to-br from-emerald-400 to-teal-500 rounded-full mx-auto mb-6 flex items-center justify-center text-white text-2xl font-bold">
                   A
                 </div>
-                <blockquote className="text-lg text-slate-600 dark:text-slate-300 italic mb-4 leading-relaxed">
-                  "Increased our conversion rate by 40% in just two weeks."
+                <blockquote className="text-lg text-slate-600 dark:text-slate-300 font-extralight italic mb-4 leading-relaxed">
+                  &ldquo;Increased our conversion rate by 40% in just two weeks.&rdquo;
                 </blockquote>
                 <div className="text-sm font-medium text-slate-800 dark:text-slate-200">Alex Chen</div>
                 <div className="text-xs text-slate-500 dark:text-slate-400">Marketing Director at TechCorp</div>
@@ -339,8 +339,8 @@ export default function Home() {
                 <div className="w-16 h-16 bg-gradient-to-br from-orange-400 to-amber-500 rounded-full mx-auto mb-6 flex items-center justify-center text-white text-2xl font-bold">
                   S
                 </div>
-                <blockquote className="text-lg text-slate-600 dark:text-slate-300 italic mb-4 leading-relaxed">
-                  "The AI insights saved us months of manual analysis work."
+                <blockquote className="text-lg text-slate-600 dark:text-slate-300 font-extralight italic mb-4 leading-relaxed">
+                  &ldquo;The AI insights saved us months of manual analysis work.&rdquo;
                 </blockquote>
                 <div className="text-sm font-medium text-slate-800 dark:text-slate-200">Sarah Kim</div>
                 <div className="text-xs text-slate-500 dark:text-slate-400">Product Manager at StartupXYZ</div>
@@ -350,8 +350,8 @@ export default function Home() {
                 <div className="w-16 h-16 bg-gradient-to-br from-teal-400 to-cyan-500 rounded-full mx-auto mb-6 flex items-center justify-center text-white text-2xl font-bold">
                   M
                 </div>
-                <blockquote className="text-lg text-slate-600 dark:text-slate-300 italic mb-4 leading-relaxed">
-                  "Finally, a tool that actually understands our business needs."
+                <blockquote className="text-lg text-slate-600 dark:text-slate-300 font-extralight italic mb-4 leading-relaxed">
+                  &ldquo;Finally, a tool that actually understands our business needs.&rdquo;
                 </blockquote>
                 <div className="text-sm font-medium text-slate-800 dark:text-slate-200">Mike Rodriguez</div>
                 <div className="text-xs text-slate-500 dark:text-slate-400">Growth Lead at ScaleUp Inc</div>
