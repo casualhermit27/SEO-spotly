@@ -8,8 +8,14 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "SEO Analytics Dashboard",
-  description: "Modern SEO analytics and insights platform built with Next.js",
+  title: "Spotly - AI-Powered SEO Analysis for Landing Pages",
+  description: "AI-powered analysis that combines visual design evaluation with technical SEO checks to maximize your landing page performance and conversions.",
+};
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
 };
 
 export default function RootLayout({
